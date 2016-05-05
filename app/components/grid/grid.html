@@ -1,0 +1,5 @@
+<div class="grid container">
+    <div class="row" ng-repeat="row in vm.grid">
+        <div class="cell" ng-repeat="cell in row" ng-click="vm.cellClick(cell, vm.grid)" ng-class="{'active': cell.active}">{{cell.mark}}</div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+.cell{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.cell:hover{
+    background-color: tomato;
+}
+.cell.active{
+    background-color: gold;
+}
